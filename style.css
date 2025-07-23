@@ -20,7 +20,7 @@ header {
     align-items: center;
     padding: 20px 50px;
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: -50px;
 }
 
 header .logo {
@@ -29,7 +29,7 @@ header .logo {
 }
 
 header .logo-img {
-    width: 50px;
+    width: 90px;
     margin-right: 10px;
 }
 
@@ -45,51 +45,60 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: 600;
+    margin-right: 50px;
 }
 
 li a:hover {
     background-color: aqua;
-}
-
-header .cart span {
-    font-size: 18px;
-    font-weight: bold;
+    cursor: pointer;
     color: #ff6f61;
 }
 
+
+
+
+
 /*main section*/
 
-.main-section {
+.hero-section {
     display: flex;
     justify-content: space-between;
     padding: 50px;
 }
 
-.main-section .content {
-    max-width: 50%;
+.hero-section .content {
+    max-width: 150%;
+    margin-left: 70px;
+    margin-top: 70px;
 }
 
-.main-section h1 {
+.hero-section h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
-    animation: textAnimation 1s ease-in-out;
 }
 
-.main-section .highlight {
+.hero-section .highlight {
     color: #ff6f61;
 }
 
-.main-section p {
+.hero-section p {
     font-size: 15px;
     line-height: 1.6;
     color: #666;
     max-width: 500px;
+}
+
+.hero-section .flowers-image img {
+    max-width: auto;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
