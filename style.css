@@ -1,10 +1,4 @@
-/*resetting*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -67,6 +61,7 @@ li a:hover {
 
 /*main section*/
 
+
 .hero-section {
     display: flex;
     justify-content: space-between;
@@ -74,7 +69,8 @@ li a:hover {
 }
 
 .hero-section .content {
-    max-width: 150%;
+    max-width: 1140;
+    max-height: 461px;
     margin-left: 70px;
     margin-top: 70px;
 }
@@ -138,8 +134,8 @@ li a:hover {
 }
 
 .product img {
-    width: 100%;
-    height: auto;
+    width: 270px;
+    height: 486px;
     border-radius: 10px;
 }
 
@@ -167,3 +163,74 @@ li a:hover {
 .add-to-cart:hover {
     background-color: #e65a4e;
 }
+
+
+.flower-lover-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    margin-right: 48px;
+}
+
+
+.image-container {
+    width: 500px;
+    height: 700px;
+    position: relative;
+    
+}
+
+.badge-img {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: -90px;
+    left: 400px;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 150px;
+    margin-bottom: 500px;
+}
+ 
+
+.flower-description {
+    margin-bottom: -300px;
+    margin-right: 210px;
+    width: 50%;
+}
+
+
+
+.flower-description h1 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+
+
+.flower-description ul li {
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+
+
+
